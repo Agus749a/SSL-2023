@@ -9,6 +9,6 @@ int main (void) //funcion main, void como argumento.
 {
     printf("Hello World");
 
-    FILE *Flujo = fopen("Outout2.txt", "w" );
+    FILE *Flujo = fopen("Output2.txt", "w" );
     fprintf(Flujo,"Hello World pero con fprinf"); //Queria probar lo que menciono la ultima clase. Se me ocurrio hacer algo asi.
 }
